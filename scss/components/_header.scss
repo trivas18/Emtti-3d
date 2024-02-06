@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+
+    nav {
+        ul {
+            column-gap: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                display: flex;
+                list-style: none;
+
+                a {
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                    font-family: 'Covered By Your Grace', cursive;
+                    font-weight: 700;
+                    font-size: 20px;
+                    font-size: 2rem;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .position-sticky
+    {
+    background-color: rgb(60, 128, 117);
+    position: sticky;
+    top: 0;
+}
+.menu {
+    flex-grow: 0;
+}
+
+.menu-ul {
+    align-items: center;
+}
+
+.nav-linkeado {
+    color: rgb(55, 0, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-linkeado:hover {
+    color: rgb(159, 43, 226);
+}
+}

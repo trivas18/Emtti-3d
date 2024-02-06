@@ -1,0 +1,26 @@
+main.index {
+    &.alert.alert-primary {}
+
+    &.alert.alert-danger {}
+
+    .centrada{
+        text-align: center;
+    }
+
+    .row-d-flex-jusfify-content-center {
+        .col-sm-12-col-md-6-col-lg-3{}
+        .col-sm-12-col-md-6-col-lg-6{}
+    }
+    .recursos{
+        color: rgb(197, 224, 155);
+        background-color: rgb(40, 73, 116);
+        text-align: center;
+    }
+    .background-image{
+        height: 500px;
+        background-image: url(../../img/fondo-azul.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;  
+    }
+}

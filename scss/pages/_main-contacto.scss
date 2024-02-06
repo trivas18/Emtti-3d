@@ -1,0 +1,59 @@
+main.contacto {
+    .main {
+        &.contacto {
+            .form-section {
+                form {
+                    action: "form.php";
+                    method: post;
+                    &div.forms-div .input:focus {
+                        border-color: fuchsia;
+                        position: relative;
+                        margin-bottom: 15px;
+                        width: 30vw;
+                        display: flex;
+                        align-items: center;
+                        padding: 25px;
+                        margin: 25px;
+                        &.label{position: absolute;
+                            left: 5px;
+                            top: -35px;
+                            margin-top: 15px;
+                            background-color: rgb(0, 14, 141);
+                            border-radius: 25%;
+                            padding: 1px 9px;
+                            font-size: 18px;
+                            color: rgb(62, 131, 108);
+                            transition: 0, 5s;
+                        }
+                        &.input{    height: 45px;
+                            width: 200;
+                            border: 2px solid pink;
+                            padding: 4px 15px;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contenedor-flex {
+        background-color: rgb(0, 22, 119);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px 8px;
+        justify-content: center;
+        .centrada{img{
+            .imagen-corazon{
+                margin: 1px;
+                border-radius: 50%;
+            }
+        }
+        img{.imagen-corazon{
+            margin: 1px;
+            border-radius: 50%;
+        }
+        }
+        }
+    }
+}

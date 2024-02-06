@@ -1,0 +1,16 @@
+@import "utilities/reset";
+
+@import "utilities/globals";
+@import "utilities/reset.scss";
+@import "utilities/variables";
+@import "utilities/globals";
+@import "utilities/mixin";
+@import "utilities/extends.scss";
+@import "components/header";
+@import "pages/main-contacto.scss";
+@import "pages/main-funcionamiento-de-las-impresoras.scss";
+@import "pages/main-index.scss";
+@import "pages/main-nosotros.scss";
+@import "pages/main-productos-destacados.scss";
+@import "components/footer";
+@import "utilities/media-queries.scss";

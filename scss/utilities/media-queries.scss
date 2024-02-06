@@ -1,0 +1,15 @@
+/*destock 1024 y 1200px*/
+@media screen and (min-width:1024px) {}
+
+/*ablet entre 768px y 1024px*/
+@media screen and (min-width:768px) {}
+
+/*mobile entre 320px y 768px*/
+@media screen and (min-width:320px) {}
+
+@media screen and (max-width:991px) {
+    .menu {
+        position: absolute;
+        top: 150px;
+    }
+}

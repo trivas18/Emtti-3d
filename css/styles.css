@@ -1,66 +1,69 @@
 /*estilos generales*/
+/*
 html {
     font-family: 'Covered By Your Grace', cursive;
     font-size: 1rem;
     font-style: italic;
     color: black;
-}
+}*/
 
 /*estilos globales*/
-/*reset*/
-* {
+/*
+*reset
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
-/*Estilos para la caja*/
+/*Estilos para la caja
 .caja {
     background-color: rgb(12, 36, 63);
     margin: 30px 20px 30px 20px;
     padding: 20px;
     border: 3px solid blue;
     border-radius: 3%;
-}
+}*/
 
-/*Estilos para los elementos con clase display*/
+/*Estilos para los elementos con clase display
 .display {
     background-color: rgb(61, 126, 90);
-}
+}/*
 
-/*Estilos para los elementos con clase diseñadores*/
+/*Estilos para los elementos con clase diseñadores
 .Diseñadores {
     background-color: rgb(7, 8, 54);
     display: inline-flex;
     padding: 10px;
     margin: 20px;
     border: 3px solid rgb(0, 238, 255);
-}
-
+}*/
+/*
 .hola {
     border-radius: 50%;
     border: 3px solid rgb(0, 183, 255);
-}
+}*/
 
-/*Estilos para elementos con posición fija*/
+/*Estilos para elementos con posición fija
 .position-fixed {
     position: fixed;
     height: 1px;
     width: 1px;
     bottom: 10px;
     right: 6px;
-}
+}*/
 
 
-/*Estilos para elementos con posicion sticky*/
-.position-sticky {
+/*Estilos para elementos con posicion sticky
+.position-sticky
+    {
     background-color: rgb(60, 128, 117);
     position: sticky;
     top: 0;
 }
-
+*/
 /*estilos de flex*/
-/*flex direction*/
+/*flex direction
 .contenedor-flex {
     background-color: rgb(0, 22, 119);
     display: flex;
@@ -69,24 +72,24 @@ html {
     gap: 8px 8px;
     justify-content: center;
 }
-
+/*
 .imagen-corazon {
     margin: 1px;
     border-radius: 50%;
-}
-
+}*/
+/*
 .contenedors {
     background-color: blue;
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
     gap: 10px 10px;
-}
-
+}*/
+/*
 .Emtti {
     background-color: rgb(87, 133, 87);
     margin: 4px;
-}
-
+}*/
+/*
 .contenedores-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -95,25 +98,26 @@ html {
     align-items: center;
     justify-content: center;
 }
-
+*/ 
+/*
 .objeto {
     border-radius: 50%;
 }
-
-/*Estilos de fondos para el cuerpo*/
+/*
+*/
+/*Estilos de fondos para el cuerpo
 body {
     background-image: url(./../img/fondo-verde.jpg);
     background-size: cover;
 }
-
-/*Estilos centrados*/
+*/
+/*Estilos centrados
 .centrada {
     text-align: center;
-}
-
-/*Estilos para encabezados*/
+}*/
+/*Estilos para encabezados
 h1 {
-    color: navy;
+    color:$primario;
     background-color: rgb(72, 148, 106);
     text-align: center;
 }
@@ -130,22 +134,23 @@ h3 {
 }
 
 /*estilos para el texto de recursos*/
-.Recursos {
+/*.Recursos {
     color: rgb(197, 224, 155);
     background-color: rgb(40, 73, 116);
     text-align: center;
-}
+}*/
 
-/*Estilos para parrafos y enlaces*/
+
+/*Estilos para parrafos y enlaces
 p {
     color: black;
 }
 
 a {
     color: rgb(0, 90, 90);
-}
+}*/
 
-/*Estilos para el header*/
+/*Estilos para el header
 header {
     display: flex;
     background-color: blue;
@@ -153,9 +158,8 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 15px
-}
-
-/*Estilos para el nav*/
+}*/
+/*Estilos para el nav
 header nav ul {
     display: flex;
     list-style: none;
@@ -163,9 +167,9 @@ header nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+}*/
 
-header nav ul li a {
+/*header nav ul li a/* {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: 'Covered By Your Grace', cursive;
@@ -175,17 +179,16 @@ header nav ul li a {
     text-transform: uppercase;
 }
 
-header nav ul li {
+header nav ul li
+
+    {
     display: inline-block;
     margin-right: 10px;
 }
 
 /*Estilos para el main.index*/
-.main-index h3 {
-    text-decoration: underline;
-}
 
-
+/*
 .menu {
     flex-grow: 0;
 }
@@ -202,84 +205,89 @@ header nav ul li {
 
 .nav-linkeado:hover {
     color: rgb(159, 43, 226);
-}
+}*/
 
+/*
 .bg-color {
     background-color: rgb(21, 133, 153);
-}
+}*/
 
-.background-image {
+/*.background-image {
     height: 500px;
     background-image: url(./../img/fondo-azul.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+}*/
 
 /*Estilos para el main.contacto*/
-
-.forms-div{
+/*
+.forms-div {
     position: relative;
     margin-bottom: 15px;
-
-}
-.forms-div .input{
+}*/
+/*
+.forms-div .input {
     height: 45px;
     width: 200;
     border: 2px solid pink;
     padding: 4px 15px;
     border-radius: 10px;
-}
-.forms{
+}*/
+/*
+.forms-div {
     width: 30vw;
     display: flex;
     align-items: center;
     padding: 25px;
     margin: 25px;
-}
-.forms-div .label{
-    position:absolute;
+}*/
+/*
+.forms-div .label {
+    position: absolute;
     left: 5px;
-    top:-35px;
+    top: -35px;
     margin-top: 15px;
     background-color: rgb(0, 14, 141);
     border-radius: 25%;
     padding: 1px 9px;
     font-size: 18px;
     color: rgb(62, 131, 108);
-    transition: 0,5s;
-}
-.forms-div .input:focus{
-    border-color:fuchsia;
-}
+    transition: 0, 5s;
+}*/
+/*
+.forms-div .input:focus {
+    border-color: fuchsia;
+}*/
 
-/*Estilos para el main.nosotros*/
+/*Estilos para el main.nosotros
 .nosotros {
     background-color: blue;
-}
+}*/
 
-/*Estilos para el main.funcionamiento-de-las-impresoras*/
+/*Estilos para el main.funcionamiento-de-las-impresoras
 .centrada {
-    text-align: center
-}
+    text-align: center*/
 
-/*estilos para el footer*/
+
+/*estilos para el footer
 .centrada {
     text-align: center;
-}
+}*/
 
-/*Estilos para subrayados*/
+/*Estilos para subrayados
 .underline {
     text-decoration: underline;
-}
+}*/
 
-/*destock 1024 y 1200px*/
+
+/*destock 1024 y 1200px
 @media screen and (min-width:1024px) {}
 
-/*ablet entre 768px y 1024px*/
-@media screen and (min-width:768px) {}
+/*ablet entre 768px y 1024px
+@media screen and (min-width:768px) {}*/
 
-/*mobile entre 320px y 768px*/
+/*mobile entre 320px y 768px
 @media screen and (min-width:320px) {}
 
 @media screen and (max-width:991px) {
@@ -287,4 +295,4 @@ header nav ul li {
         position: absolute;
         top: 150px;
     }
-}
+}/*

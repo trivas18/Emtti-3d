@@ -1,0 +1,33 @@
+.main-nosotros {
+    nosotros {
+        background-color: blue;
+
+        .caja {
+            background-color: rgb(12, 36, 63);
+            margin: 30px 20px 30px 20px;
+            padding: 20px;
+            border: 3px solid blue;
+            border-radius: 3%;
+        }
+    }
+
+    .contenedors {
+        background-color: blue;
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        gap: 10px 10px;
+    }
+    .emtti{
+        background-color: rgb(87, 133, 87);
+        margin: 4px;
+    }
+    .contenedor-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: lightblue;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        .objeto{border-radius: 50%;}
+    }
+}
