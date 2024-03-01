@@ -1,0 +1,18 @@
+%centrada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%borde-redondeado {
+    border-radius: 5px;
+}
+
+.caja {
+    @extend %centrada;
+    @extend %borde-redondeado;
+    background-color: rgb(2, 92, 72);
+    margin: 30px 20px 30px 20px;
+    padding: 20px;
+    border: 3px solid white;
+}

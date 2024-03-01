@@ -1,6 +1,15 @@
-@mixin flex($flex-direction,$aling-items,$justify-content){
+@mixin flex($flex-direction, $aling-items, $justify-content) {
     display: flex;
     flex-direction: $flex-direction;
     align-items: $aling-items;
     justify-content: $justify-content;
+}
+
+.caja {
+    @extend %centrada;
+    @extend %borde-redondeado;
+    background-color: rgb(2, 92, 72);
+    margin: 30px 20px 30px 20px;
+    padding: 20px;
+    border: 3px solid white;
 }
